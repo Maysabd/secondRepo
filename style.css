@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@200;300&family=Poppins:wght@200;300;400&display=swap');
+
+body {
+    font-family: "DMsans", Arial, Helvetica, sans-serif;
+    background-color:black ;
+    color: white;
+    padding: 3rem;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between; 
+}
+header nav .burgContainer .burgIcon{
+    display: none;
+}
+header nav ul{
+    display: flex;   
+    justify-content: space-between;
+    list-style: none;
+    gap: 4rem;
+}
+header nav ul li{
+    display: inherit;
+    align-items: center;
+    
+}
+main .section1{
+    display: flex;
+    align-items: center;
+    gap: 50%;
+}
+main .section1 .sectRight {
+    display: flex;
+    flex-direction: column;
+}
+main .section1  .sectLeft{
+    border-radius: 50%;
+}
+main .section1  .sectLeft img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+
+}
+main .section2 .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+main .section2 .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    left: 9px;
+}
+
+main .section2 .info .outCerc{
+    position: relative;
+    background: rgba(248, 246, 246, 0.089) ;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+main .section2 .info .inerCerc{
+    position: absolute;
+    background: rgb(4, 165, 58) ;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    top: 25px;
+    left: 25px;
+    
+}
+main .section3 .boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+}
+main .section3 .boxs .box1{
+width: 300px;
+height: 250px;
+background: rgba(248, 246, 246, 0.089) ;
+}
+main .section3 .boxs .box1:hover{
+   border-bottom: 2px solid green;
+   cursor: pointer;
+    }
+
+main .section4 .comptence{
+    margin: 5px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(248, 246, 246, 0.089) ;
+    width: 90%;
+    height: 100%;
+    gap: 5rem;
+    }
+main .section4 .comptence .box2{
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(128, 128, 128, 0.507);
+}
+main .section4 .comptence .box2 p{
+    font-size:20px;
+    color:green;
+}
+main .section5 {
+    display: flex;
+    justify-content: center;
+  
+    
+}
+main .section5 form{
+margin-top: 70px;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+gap: 2rem;
+
+}
+main .section5 form .gInp input{
+   
+    background: transparent;
+    border: none;
+    border-bottom:1px solid rgb(66, 66, 66) ;
+}
+main .section5 form textarea{
+   
+    background: transparent;
+    border:1px solid rgb(66, 66, 66) ;
+    color: white;
+    resize: none;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+/*Mobil*/
+@media (min-width:400px) and (max-width:768px){ 
+   main nav .burgContainer .burgIcon{
+    display: block;
+   }
+   
+ 
+}
+
